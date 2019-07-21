@@ -30,7 +30,7 @@ public class ServerLoadInfo {
     public ServerLoadInfo(String quota,int providerThread,int cpuCount){
         
         this.quota = quota;
-        this.providerThread = (int) (providerThread * 0.9);
+        this.providerThread = (int) (providerThread * 0.8);
         //this.providerThread = providerThread;
         this.weight = cpuCount;
     }
